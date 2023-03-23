@@ -1,0 +1,9 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0 16px 24px;
+  font-family: 'Inter', Arial, sans-serif;
+  color: white;
+}

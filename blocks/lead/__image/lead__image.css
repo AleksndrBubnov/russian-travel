@@ -1,0 +1,7 @@
+.lead__image {
+  box-sizing: border-box;
+  overflow: hidden;
+  object-fit: cover;
+  width: 100%;
+  min-height: 200px;
+}

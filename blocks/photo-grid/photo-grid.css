@@ -1,0 +1,11 @@
+.photo-grid {
+  display: grid;
+  grid-template-columns: 1ft;
+  grid-template-rows: 1ft;
+  flex-wrap: wrap;
+  flex-direction: column;
+  min-width: 288px;
+  margin: 0;
+  padding: 0 16px 64px;
+  gap: 16px;
+}

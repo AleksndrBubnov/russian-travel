@@ -9,12 +9,12 @@
 
 @media (min-width: 928px) {
   .lead {
-    max-width: 928px
+    max-width: 928px;
   }
 }
 
 @media (min-width: 1280px) {
   .lead {
-    max-width: 984px
+    max-width: 984px;
   }
 }

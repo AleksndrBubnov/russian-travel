@@ -3,7 +3,26 @@
   flex-direction: column;
   justify-content: space-between;
   margin: 0;
-  padding: 0 16px 24px;
+  padding: 64px 16px 24px;
   font-family: 'Inter', Arial, sans-serif;
   color: white;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    padding: 88px 24px 24px;
+    max-height: 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    padding: 92px 48px 24px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .footer {
+  }
 }

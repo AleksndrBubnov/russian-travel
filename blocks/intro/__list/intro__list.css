@@ -8,3 +8,9 @@
   line-height: 18px;
   white-space: pre-line;
 }
+
+/* @media (min-width: 690px) {
+  .intro__list {
+    max-width: 690px;
+  }
+} */

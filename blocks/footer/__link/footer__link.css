@@ -7,23 +7,15 @@
   font-size: 24px;
   line-height: 24px;
   color: inherit;
-  /* identical to box height, or 100% */
+}
+
+.footer__link:hover {
+  opacity: 0.8;
 }
 
 @media (min-width: 768px) {
   .footer__link{
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 18px;
-    /* identical to box height, or 112% */
   }
-}
-
-@media (min-width: 1024px) {
-  
-}
-
-@media (min-width: 1280px) {
-  
 }

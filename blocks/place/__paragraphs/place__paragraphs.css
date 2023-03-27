@@ -4,4 +4,12 @@
   justify-content: stretch;
   margin: 0;
   padding: 0;
+  row-gap: 25px;
 }
+
+@media (min-width: 1024px) {
+  .place__paragraphs {
+    row-gap: 26px;
+  }
+}
+

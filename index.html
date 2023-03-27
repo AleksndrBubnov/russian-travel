@@ -9,10 +9,11 @@
   <title>Путешествия по России</title>
 </head>
 <body class="body">
+  <div class="page">
     <header class="header">
       <img class="header__logo" src="./images/header-logo.svg" alt="лого">
       <ul class="header__lang-links">
-        <li><a class="header__lang-link header__lang-link_decoration_underline" href="#">Ru</a></li>
+        <li><a class="header__lang-link header__lang-link_underline" href="#">Ru</a></li>
         <li><a class="header__lang-link" href="#">En</a></li>
       </ul>
     </header>
@@ -33,12 +34,13 @@
            по родной стране. Мы выбрали 
           и описали некоторые интересные места, достойные вашего отпуска.
         </p>
-        <p class="intro__list">Часовых поясов <span class="intro__list-number">11</span>
-          Объектов природного наследия ЮНЕСКО <span class="intro__list-number">12</span>
-          Объектов культурного наследия ЮНЕСКО <span class="intro__list-number">16</span>
-          Природных заповедников <span class="intro__list-number">105</span>
-          Аэропортов <span class="intro__list-number">241</span>
-        </p>
+        <ul class="intro__list">
+          <li><p class="intro__list-text">Часовых поясов <span class="intro__list-number">11</span></p></li>
+          <li><p class="intro__list-text">Объектов природного наследия ЮНЕСКО <span class="intro__list-number">12</span></p></li>
+          <li><p class="intro__list-text">Объектов культурного наследия ЮНЕСКО <span class="intro__list-number">16</span></p></li>
+          <li><p class="intro__list-text">Природных заповедников <span class="intro__list-number">105</span></p></li>
+          <li><p class="intro__list-text">Аэропортов <span class="intro__list-number">241</span></p></li>
+        </ul>
       </section>
       
       <section class="photo-grid">
@@ -60,7 +62,7 @@
         <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
-            <h3 class="place__url-heading">URL</h3>
+            <h3 class="place__url-heading">url</h3>
             <a class="place__link" href="http://park-kosa.ru">park-kosa.ru</a>
           </div>
           <img class="place__image" src="./images/place-kosa.jpg" alt="куршская коса">
@@ -77,7 +79,7 @@
         <article class="place">
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
-            <h3 class="place__url-heading">URL</h3>
+            <h3 class="place__url-heading">url</h3>
             <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
           </div>
           <img class="place__image" src="./images/place-kolsky.jpg" alt="кольсикй">
@@ -94,7 +96,7 @@
         <article class="place">
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
-            <h3 class="place__url-heading">URL</h3>
+            <h3 class="place__url-heading">url</h3>
             <a class="place__link" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ">YouTube</a>
           </div>
           <img class="place__image" src="./images/place-altai.jpg" alt="картинка алтай">
@@ -111,7 +113,7 @@
         <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
-            <h3 class="place__url-heading">URL</h3>
+            <h3 class="place__url-heading">url</h3>
             <a class="place__link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
           </div>
           <img class="place__image" src="./images/place-winter-baikal.jpg" alt="картинка байкал">
@@ -130,7 +132,7 @@
         <article class="place">
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
-            <h3 class="place__url-heading">URL</h3>
+            <h3 class="place__url-heading">url</h3>
             <a class="place__link" href="http://vodlozero.ru">http://vodlozero.ru/</a>
           </div>
           <img class="place__image" src="./images/place-karelia.jpg" alt="картинка карелия">
@@ -142,7 +144,7 @@
         </article>
       </section>
 
-      <section class="cover body__container">
+      <section class="cover">
         <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link">
           <h2 class="cover__title">До Байкала
             «на собаках»
@@ -156,14 +158,17 @@
     </main>
 
     <footer class="footer">
-      <ul class="footer__links">
-        <li><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
-        <li><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
-        <li><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
-        <li><a class="footer__link" href="https://calendar.yandex.ru">Календарь</a></li>
-        <li><a class="footer__link" href="https://travel.yandex.ru">Путешествия</a></li>
-      </ul>
-      <p class="footer__copyright">© 2023. Бубнов Александр</p>
+      <nav class="footer__nav">
+        <ul class="footer__links">
+          <li><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
+          <li><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
+          <li><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
+          <li><a class="footer__link" href="https://calendar.yandex.ru">Календарь</a></li>
+          <li><a class="footer__link" href="https://travel.yandex.ru">Путешествия</a></li>
+        </ul>
+        <p class="footer__copyright">© 2023. Бубнов Александр</p>
+      </nav>
     </footer>
+  </div>
 </body>
 </html>

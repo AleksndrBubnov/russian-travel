@@ -10,16 +10,7 @@
 
 @media (min-width: 768px) {
   .footer__copyright{
-    padding: 0;
-    font-style: normal;
+    padding: 0; 
     line-height: 16px;
   }
-}
-
-@media (min-width: 1024px) {
-  
-}
-
-@media (min-width: 1280px) {
-  
 }

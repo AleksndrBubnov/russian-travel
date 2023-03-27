@@ -8,3 +8,7 @@
   text-decoration: none;
   color: white;
 }
+
+.header__lang-link:hover {
+  opacity: .8;
+}

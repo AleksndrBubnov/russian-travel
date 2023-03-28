@@ -20,9 +20,3 @@
     padding: 0 48px 20px;
   }
 }
-
-@media (min-width: 1280px) {
-  .places {
-    padding: 0 48px px;
-  }
-}

@@ -19,3 +19,10 @@
     padding: 0 0 92px;
   }
 }
+
+@media (min-width: 1280px) {
+  .intro {
+    max-width: 984px;
+    padding: 0 0 92px;
+  }
+}

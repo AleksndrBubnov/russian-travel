@@ -13,6 +13,7 @@
 @media (min-width: 768px) {
   .cover__title {
     min-width: 288px;
+    max-width: 560px;
     padding: 0 0 32px;
     font-size: 72px;
     line-height: 76px;
